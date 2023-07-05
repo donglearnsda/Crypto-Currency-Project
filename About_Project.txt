@@ -1,0 +1,49 @@
+1. Business model
+K Enterprise is a crypto wallet (K) business with millions of users worldwide
+gender. Each user can have 1 or more wallets, each wallet contains 1 or more cryptos
+currency. Users who register to use the K platform will have to import 1 or more of their wallets
+into the platform. Since it is a blockchain platform, the user's identity does not need to be declared,
+however, information about the device they use to log in is recorded, including what device, background
+what platform (web/mobile), what operating system, IP address (geographical location of collectable IP)...
+Platform K as a playground for these people to use their wallets to exchange for cryptocurrencies
+in their wallet (swap). Users exchange cryptos because they believe their cryptos will change
+prices will increase in the future. There are many crypto currencies, but they are ranked in
+2 types: stable coin and alt coin. Stable coins are crypto currencies anchored at real money prices such as
+USD, YEN, RMB or gold, while Alt coins are floating crypto currencies
+such as Bitcoin.
+For each transaction, the customer exchanges 1 coin for another based on the value
+temporary of that coin, for example, coin A at that time is worth 1$/dong, it will be exchanged for 2 coins B
+priced at $0.50/dong. Wallet K will collect 2% of the transaction fee, paid = VND exchanged (VND B)
+Currently, the company's trading data is being saved in the form of a large data table, in the form of
+raw and unprocessed
+2. Data Dictionary of raw data
+- txn_id: identifier for each transaction
+- wallet_address: wallet address
+- volume: transaction value
+- date: transaction date
+- platform: transaction platform
+- source_token: traded crypto code
+- dest_token: received crypto code
+- source_amount: volume of traded crypto code
+- dest_amount: volume of received crypto code
+- source_price: value of a traded crypto code
+- dest_price: value of a received crypto code
+- country_code: country code
+- os: operating system
+- source_kind: crypto type of source_token
+- dest_kind: crypto type of dest_token
+- latitude_(average): country latitude
+- longtitude_(average): country longtitude
+- country: country name
+- source_anchor: where the source_token is pegged to
+- dest_anchor: where the dest_token is pegged to
+3. Analytics request:
+The CFO is in need of a dashboard, built in excel or Powerbi about the analysis
+Analyze transaction data on the K platform. This dashboard should provide information such as:
+- Daily revenue growth, daily total revenue (time dimension)
+- Revenue by country (geographic dimension)
+- Revenue by swap pairs (token side)
+Deriving from the data model built on sql server, the company's Data analyst will build
+a dashboard on excel or powerbi to clarify this requirement of the CFO
+
+
