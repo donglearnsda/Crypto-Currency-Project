@@ -9,8 +9,9 @@ a dashboard on excel or powerbi to clarify this requirement of the CFO
 
 3. Setup process:
 - Step 1: Using draw.io website to preliminary design a data model for the data warehouse.
-- Step 2: Designing the data model for data warehouse on SQL - Designing columns, tables based on company's data and setting primary/foreign keys for each table.
-- Step 3: Building a dashboard based on CFO's requests on Power BI.
+- Step 2: Performing data cleaning and normalization process.
+- Step 3: Making and connecting tables.
+- Step 4: Building a dashboard based on CFO's requests on Power BI.
 
 4. References:
 - Data source: Provided by Datatomic Center.
