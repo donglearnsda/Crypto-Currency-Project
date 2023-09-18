@@ -1,5 +1,5 @@
 # PowerBI-Crypto-Currency-Project
-Making data warehouse for Crypto currency trading platform and building the dashboard based on CFO's requests.
+Making data modeling for Crypto currency trading platform and building the dashboard based on CFO's requests.
 
 1. About project (.txt file)
 
